@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 001` <!-- Update this daily with your progress -->
+**Current Day:** `Day 004` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░░░░░░░] 0% Complete (0/100 days)
+[░           ] 3% Complete (3/100 days)
 ```
 
 ## 🎯 What I'm Learning
