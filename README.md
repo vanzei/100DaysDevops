@@ -151,7 +151,7 @@ days/
 - [x] **Day 003:** Secure Root SSH Access
 - [x] **Day 004:** Script Execution Permissions
 - [x] **Day 005:** SELinux Installation and Configuration
-- [ ] **Day 006:** Create a Cron Job
+- [x] **Day 006:** Create a Cron Job
 - [ ] **Day 007:** Linux SSH Authentication
 
 ### Week 2: System Administration & Configuration
