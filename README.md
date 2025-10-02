@@ -146,9 +146,9 @@ days/
 
 ### Week 1: Linux Fundamentals
 
-- [ ] **Day 001:** Linux User Setup with Non-Interactive Shell
-- [ ] **Day 002:** Temporary User Setup with Expiry
-- [ ] **Day 003:** Secure Root SSH Access
+- [x] **Day 001:** Linux User Setup with Non-Interactive Shell
+- [x] **Day 002:** Temporary User Setup with Expiry
+- [x] **Day 003:** Secure Root SSH Access
 - [ ] **Day 004:** Script Execution Permissions
 - [ ] **Day 005:** SELinux Installation and Configuration
 - [ ] **Day 006:** Create a Cron Job
