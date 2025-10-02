@@ -149,8 +149,8 @@ days/
 - [x] **Day 001:** Linux User Setup with Non-Interactive Shell
 - [x] **Day 002:** Temporary User Setup with Expiry
 - [x] **Day 003:** Secure Root SSH Access
-- [ ] **Day 004:** Script Execution Permissions
-- [ ] **Day 005:** SELinux Installation and Configuration
+- [x] **Day 004:** Script Execution Permissions
+- [x] **Day 005:** SELinux Installation and Configuration
 - [ ] **Day 006:** Create a Cron Job
 - [ ] **Day 007:** Linux SSH Authentication
 
