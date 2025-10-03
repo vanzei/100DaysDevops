@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 004` <!-- Update this daily with your progress -->
+**Current Day:** `Day 009` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░           ] 3% Complete (3/100 days)
+[░           ] 8% Complete (8/100 days)
 ```
 
 ## 🎯 What I'm Learning
@@ -156,7 +156,7 @@ days/
 
 ### Week 2: System Administration & Configuration
 
-- [ ] **Day 008:** Install Ansible
+- [x] **Day 008:** Install Ansible
 - [ ] **Day 009:** MariaDB Troubleshooting
 - [ ] **Day 010:** Linux Bash Scripts
 - [ ] **Day 011:** Install and Configure Tomcat Server
