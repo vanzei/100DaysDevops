@@ -157,7 +157,7 @@ days/
 ### Week 2: System Administration & Configuration
 
 - [x] **Day 008:** Install Ansible
-- [ ] **Day 009:** MariaDB Troubleshooting
+- [x] **Day 009:** MariaDB Troubleshooting
 - [ ] **Day 010:** Linux Bash Scripts
 - [ ] **Day 011:** Install and Configure Tomcat Server
 - [ ] **Day 012:** Linux Network Services
