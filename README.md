@@ -14,7 +14,7 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ### Progress Tracker
 ```
-[░           ] 12% Complete (12/100 days)
+[░           ] 14% Complete (14/100 days)
 ```
 
 ## 🎯 What I'm Learning
@@ -161,8 +161,8 @@ days/
 - [x] **Day 010:** Linux Bash Scripts
 - [x] **Day 011:** Install and Configure Tomcat Server
 - [x] **Day 012:** Linux Network Services
-- [ ] **Day 013:** IPtables Installation And Configuration
-- [ ] **Day 014:** Linux Process Troubleshooting
+- [x] **Day 013:** IPtables Installation And Configuration
+- [x] **Day 014:** Linux Process Troubleshooting
 
 ### Week 3: Web Services & Security
 
