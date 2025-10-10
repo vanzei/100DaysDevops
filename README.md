@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 019` <!-- Update this daily with your progress -->
+**Current Day:** `Day 021` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░           ] 19% Complete (19/100 days)
+[░░        ] 21% Complete (21/100 days)
 ```
 
 ## 🎯 What I'm Learning
@@ -87,11 +87,11 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 ## 📚 Learning Modules
 
 ### Module 1: Linux Mastery (Days 1-20)
-**Status:** 🏃‍♂️ In Progress  
+**Status:**  ✅ Completed  
 **Skills:** System administration, user management, networking, security hardening
 
 ### Module 2: Version Control Excellence (Days 21-34)
-**Status:** ⏳ Upcoming  
+**Status:** 🏊🏽‍♂️ Upcoming  
 **Skills:** Git workflows, collaboration, automation, code management
 
 ### Module 3: Containerization Journey (Days 35-47)
@@ -166,13 +166,13 @@ days/
 
 ### Week 3: Web Services & Security
 
-- [ ] **Day 015:** Setup SSL for Nginx
-- [ ] **Day 016:** Install and Configure Nginx as an LBR
-- [ ] **Day 017:** Install and Configure PostgreSQL
-- [ ] **Day 018:** Configure LAMP Server
-- [ ] **Day 019:** Install and Configure Web Application
-- [ ] **Day 020:** Configure Nginx + PHP-FPM Using Unix Sock
-- [ ] **Day 021:** Set Up Git Repository on Storage Server
+- [x] **Day 015:** Setup SSL for Nginx
+- [x] **Day 016:** Install and Configure Nginx as an LBR
+- [x] **Day 017:** Install and Configure PostgreSQL
+- [x] **Day 018:** Configure LAMP Server
+- [x] **Day 019:** Install and Configure Web Application
+- [x] **Day 020:** Configure Nginx + PHP-FPM Using Unix Sock
+- [x] **Day 021:** Set Up Git Repository on Storage Server
 
 ### Week 4: Git Version Control
 
@@ -307,4 +307,4 @@ Join the DevOps learning community:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
