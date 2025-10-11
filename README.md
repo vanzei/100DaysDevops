@@ -14,7 +14,7 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ### Progress Tracker
 ```
-[░░        ] 21% Complete (21/100 days)
+[░░        ] 25% Complete (25/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -176,10 +176,10 @@ days/
 
 ### Week 4: Git Version Control
 
-- [ ] **Day 022:** Clone Git Repository on Storage Server
-- [ ] **Day 023:** Fork a Git Repository
-- [ ] **Day 024:** Git Create Branches
-- [ ] **Day 025:** Git Merge Branches
+- [x] **Day 022:** Clone Git Repository on Storage Server
+- [x] **Day 023:** Fork a Git Repository
+- [x] **Day 024:** Git Create Branches
+- [x] **Day 025:** Git Merge Branches
 - [ ] **Day 026:** Git Manage Remotes
 - [ ] **Day 027:** Git Revert Some Changes
 - [ ] **Day 028:** Git Cherry Pick
