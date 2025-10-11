@@ -180,7 +180,7 @@ days/
 - [x] **Day 023:** Fork a Git Repository
 - [x] **Day 024:** Git Create Branches
 - [x] **Day 025:** Git Merge Branches
-- [ ] **Day 026:** Git Manage Remotes
+- [x] **Day 026:** Git Manage Remotes
 - [ ] **Day 027:** Git Revert Some Changes
 - [ ] **Day 028:** Git Cherry Pick
 
