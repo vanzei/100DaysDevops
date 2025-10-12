@@ -1,0 +1,4 @@
+```
+sudo git revert HEAD
+
+```
