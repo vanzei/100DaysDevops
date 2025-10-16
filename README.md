@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 030` <!-- Update this daily with your progress -->
+**Current Day:** `Day 034` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░       ] 30% Complete (30/100 Challenges)
+[░░░       ] 34% Complete (34/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -186,12 +186,12 @@ days/
 
 ### Week 5: Advanced Git Operations
 
-- [ ] **Day 029:** Manage Git Pull Requests
-- [ ] **Day 030:** Git Hard Reset
-- [ ] **Day 031:** Git Stash
-- [ ] **Day 032:** Git Rebase
-- [ ] **Day 033:** Resolve Git Merge Conflicts
-- [ ] **Day 034:** Git Hook
+- [x] **Day 029:** Manage Git Pull Requests
+- [x] **Day 030:** Git Hard Reset
+- [x] **Day 031:** Git Stash
+- [x] **Day 032:** Git Rebase
+- [x] **Day 033:** Resolve Git Merge Conflicts
+- [x] **Day 034:** Git Hook
 - [ ] **Day 035:** Install Docker Packages and Start Docker Service
 
 ### Week 6: Docker Fundamentals
