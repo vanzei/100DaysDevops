@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 034` <!-- Update this daily with your progress -->
+**Current Day:** `Day 039` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░       ] 34% Complete (34/100 Challenges)
+[░░░       ] 39% Complete (39/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -192,14 +192,14 @@ days/
 - [x] **Day 032:** Git Rebase
 - [x] **Day 033:** Resolve Git Merge Conflicts
 - [x] **Day 034:** Git Hook
-- [ ] **Day 035:** Install Docker Packages and Start Docker Service
+- [x] **Day 035:** Install Docker Packages and Start Docker Service
 
 ### Week 6: Docker Fundamentals
 
-- [ ] **Day 036:** Deploy Nginx Container on Application Server
-- [ ] **Day 037:** Copy File to Docker Container
-- [ ] **Day 038:** Pull Docker Image
-- [ ] **Day 039:** Create a Docker Image From Container
+- [x] **Day 036:** Deploy Nginx Container on Application Server
+- [x] **Day 037:** Copy File to Docker Container
+- [x] **Day 038:** Pull Docker Image
+- [x] **Day 039:** Create a Docker Image From Container
 - [ ] **Day 040:** Docker EXEC Operations
 - [ ] **Day 041:** Write a Docker File
 - [ ] **Day 042:** Create a Docker Network

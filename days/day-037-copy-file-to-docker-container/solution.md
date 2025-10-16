@@ -1,0 +1,1 @@
+docker cp /tmp/nautilus.txt.gpg ubuntu_latest:/usr/src/
