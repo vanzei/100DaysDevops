@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 040` <!-- Update this daily with your progress -->
+**Current Day:** `Day 048` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░      ] 46% Complete (46/100 Challenges)
+[░░░░      ] 48% Complete (46/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -210,8 +210,8 @@ days/
 - [x] **Day 044:** Write a Docker Compose File
 - [x] **Day 045:** Resolve Dockerfile Issues
 - [x] **Day 046:** Deploy an App on Docker Containers
-- [ ] **Day 047:** Docker Python App
-- [ ] **Day 048:** Deploy Pods in Kubernetes Cluster
+- [x] **Day 047:** Docker Python App
+- [x] **Day 048:** Deploy Pods in Kubernetes Cluster
 - [ ] **Day 049:** Deploy Applications with Kubernetes Deployments
 
 ### Week 8: Kubernetes Deployments
