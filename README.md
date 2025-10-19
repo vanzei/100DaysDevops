@@ -201,15 +201,15 @@ days/
 - [x] **Day 038:** Pull Docker Image
 - [x] **Day 039:** Create a Docker Image From Container
 - [x] **Day 040:** Docker EXEC Operations
-- [ ] **Day 041:** Write a Docker File
-- [ ] **Day 042:** Create a Docker Network
+- [x] **Day 041:** Write a Docker File
+- [x] **Day 042:** Create a Docker Network
 
 ### Week 7: Docker Advanced Operations
 
-- [ ] **Day 043:** Docker Ports Mapping
-- [ ] **Day 044:** Write a Docker Compose File
-- [ ] **Day 045:** Resolve Dockerfile Issues
-- [ ] **Day 046:** Deploy an App on Docker Containers
+- [x] **Day 043:** Docker Ports Mapping
+- [x] **Day 044:** Write a Docker Compose File
+- [x] **Day 045:** Resolve Dockerfile Issues
+- [x] **Day 046:** Deploy an App on Docker Containers
 - [ ] **Day 047:** Docker Python App
 - [ ] **Day 048:** Deploy Pods in Kubernetes Cluster
 - [ ] **Day 049:** Deploy Applications with Kubernetes Deployments

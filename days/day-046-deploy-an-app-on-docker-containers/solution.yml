@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+
+  php:
+    image: php:apache
+    container_name: php_blog
+    volumes:
+      - /var/www/html:/var/www/html
+    ports:
+      - "3003:80"
+
+
+  mysql:
+    image: mysql:latest
+    container_name: mysql_blog
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: dashdjsa
+      MYSQL_DATABASE: database_blog
+      MYSQL_USER: blog_user
+      MYSQL_PASSWORD: hjGAAHgaHJhjgajHajh%$^99
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
