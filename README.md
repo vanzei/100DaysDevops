@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 048` <!-- Update this daily with your progress -->
+**Current Day:** `Day 050` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░      ] 48% Complete (46/100 Challenges)
+[░░░░      ] 50% Complete (50/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -91,15 +91,15 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 **Skills:** System administration, user management, networking, security hardening
 
 ### Module 2: Version Control Excellence (Days 21-34)
-**Status:** 🏊🏽‍♂️ Upcoming  
+**Status:** ✅ Completed 
 **Skills:** Git workflows, collaboration, automation, code management
 
 ### Module 3: Containerization Journey (Days 35-47)
-**Status:** ⏳ Upcoming  
+**Status:** ✅ Completed  
 **Skills:** Docker mastery, container orchestration, microservices architecture
 
 ### Module 4: Kubernetes Deep Dive (Days 48-67)
-**Status:** ⏳ Upcoming  
+**Status:**  On going  
 **Skills:** Cluster management, pod orchestration, service mesh, monitoring
 
 ### Module 5: Automation & Infrastructure (Days 68-100)
@@ -212,11 +212,11 @@ days/
 - [x] **Day 046:** Deploy an App on Docker Containers
 - [x] **Day 047:** Docker Python App
 - [x] **Day 048:** Deploy Pods in Kubernetes Cluster
-- [ ] **Day 049:** Deploy Applications with Kubernetes Deployments
+- [x] **Day 049:** Deploy Applications with Kubernetes Deployments
 
 ### Week 8: Kubernetes Deployments
 
-- [ ] **Day 050:** Set Resource Limits in Kubernetes Pods
+- [x] **Day 050:** Set Resource Limits in Kubernetes Pods
 - [ ] **Day 051:** Execute Rolling Updates in Kubernetes
 - [ ] **Day 052:** Revert Deployment to Previous Version in Kubernetes
 - [ ] **Day 053:** Resolve VolumeMounts Issue in Kubernetes
