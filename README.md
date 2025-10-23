@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 050` <!-- Update this daily with your progress -->
+**Current Day:** `Day 052` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░      ] 50% Complete (50/100 Challenges)
+[░░░░      ] 52% Complete (52/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -217,8 +217,8 @@ days/
 ### Week 8: Kubernetes Deployments
 
 - [x] **Day 050:** Set Resource Limits in Kubernetes Pods
-- [ ] **Day 051:** Execute Rolling Updates in Kubernetes
-- [ ] **Day 052:** Revert Deployment to Previous Version in Kubernetes
+- [x] **Day 051:** Execute Rolling Updates in Kubernetes
+- [x] **Day 052:** Revert Deployment to Previous Version in Kubernetes
 - [ ] **Day 053:** Resolve VolumeMounts Issue in Kubernetes
 - [ ] **Day 054:** Kubernetes Shared Volumes
 - [ ] **Day 055:** Kubernetes Sidecar Containers
