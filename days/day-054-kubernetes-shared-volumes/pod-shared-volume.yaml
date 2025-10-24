@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: volume-share-xfusion
+  labels:
+    app: shared-volume-demo
+spec:
+  containers:
+  - name: volume-container-xfusion-1
+    image: fedora:latest
+    command: ["sleep"]
+    args: ["3600"]
+    volumeMounts:
+    - name: volume-share
+      mountPath: /tmp/news
+  - name: volume-container-xfusion-2
+    image: fedora:latest
+    command: ["sleep"]
+    args: ["3600"]
+    volumeMounts:
+    - name: volume-share
+      mountPath: /tmp/games
+  volumes:
+  - name: volume-share
+    emptyDir: {}

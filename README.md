@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 052` <!-- Update this daily with your progress -->
+**Current Day:** `Day 054` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░      ] 52% Complete (52/100 Challenges)
+[░░░░░     ] 54% Complete (54/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -219,8 +219,8 @@ days/
 - [x] **Day 050:** Set Resource Limits in Kubernetes Pods
 - [x] **Day 051:** Execute Rolling Updates in Kubernetes
 - [x] **Day 052:** Revert Deployment to Previous Version in Kubernetes
-- [ ] **Day 053:** Resolve VolumeMounts Issue in Kubernetes
-- [ ] **Day 054:** Kubernetes Shared Volumes
+- [x] **Day 053:** Resolve VolumeMounts Issue in Kubernetes
+- [x] **Day 054:** Kubernetes Shared Volumes
 - [ ] **Day 055:** Kubernetes Sidecar Containers
 - [ ] **Day 056:** Deploy Nginx Web Server on Kubernetes Cluster
 
