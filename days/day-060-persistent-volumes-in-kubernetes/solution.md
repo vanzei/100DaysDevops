@@ -1,0 +1,1 @@
+ls -la | awk '{ print $9 }' | grep yml | xargs -n1 kubectl apply -f

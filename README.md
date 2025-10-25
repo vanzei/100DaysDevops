@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 055` <!-- Update this daily with your progress -->
+**Current Day:** `Day 060` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░░     ] 55% Complete (55/100 Challenges)
+[░░░░░░    ] 60% Complete (60/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -222,14 +222,14 @@ days/
 - [x] **Day 053:** Resolve VolumeMounts Issue in Kubernetes
 - [x] **Day 054:** Kubernetes Shared Volumes
 - [x] **Day 055:** Kubernetes Sidecar Containers
-- [ ] **Day 056:** Deploy Nginx Web Server on Kubernetes Cluster
+- [x] **Day 056:** Deploy Nginx Web Server on Kubernetes Cluster
 
 ### Week 9: Kubernetes Configuration & Monitoring
 
-- [ ] **Day 057:** Print Environment Variables
-- [ ] **Day 058:** Deploy Grafana on Kubernetes Cluster
-- [ ] **Day 059:** Troubleshoot Deployment Issues in Kubernetes
-- [ ] **Day 060:** Persistent Volumes in Kubernetes
+- [x] **Day 057:** Print Environment Variables
+- [x] **Day 058:** Deploy Grafana on Kubernetes Cluster
+- [x] **Day 059:** Troubleshoot Deployment Issues in Kubernetes
+- [x] **Day 060:** Persistent Volumes in Kubernetes
 - [ ] **Day 061:** Init Containers in Kubernetes
 - [ ] **Day 062:** Manage Secrets in Kubernetes
 - [ ] **Day 063:** Deploy Iron Gallery App on Kubernetes
