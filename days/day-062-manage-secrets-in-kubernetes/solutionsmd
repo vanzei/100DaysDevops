@@ -1,0 +1,1 @@
+kubectl create secret generic blog --from-literal=password=5ecur3 --from-literal=license-number=5ecur3
