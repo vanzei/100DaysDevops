@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 060` <!-- Update this daily with your progress -->
+**Current Day:** `Day 065` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░░░    ] 60% Complete (60/100 Challenges)
+[░░░░░░    ] 65% Complete (65/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -230,14 +230,14 @@ days/
 - [x] **Day 058:** Deploy Grafana on Kubernetes Cluster
 - [x] **Day 059:** Troubleshoot Deployment Issues in Kubernetes
 - [x] **Day 060:** Persistent Volumes in Kubernetes
-- [ ] **Day 061:** Init Containers in Kubernetes
-- [ ] **Day 062:** Manage Secrets in Kubernetes
-- [ ] **Day 063:** Deploy Iron Gallery App on Kubernetes
+- [x] **Day 061:** Init Containers in Kubernetes
+- [x] **Day 062:** Manage Secrets in Kubernetes
+- [x] **Day 063:** Deploy Iron Gallery App on Kubernetes
 
 ### Week 10: Kubernetes Applications
 
-- [ ] **Day 064:** Fix Python App Deployed on Kubernetes Cluster
-- [ ] **Day 065:** Deploy Redis Deployment on Kubernetes
+- [x] **Day 064:** Fix Python App Deployed on Kubernetes Cluster
+- [x] **Day 065:** Deploy Redis Deployment on Kubernetes
 - [ ] **Day 066:** Deploy MySQL on Kubernetes
 - [ ] **Day 067:** Deploy Guest Book App on Kubernetes
 - [ ] **Day 068:** Set Up Jenkins Server
