@@ -1,0 +1,1 @@
+Found that weirdly the service had to be restarted few times through the UI to get prerequisites errors to go away

@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 068` <!-- Update this daily with your progress -->
+**Current Day:** `Day 069` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░░░    ] 68% Complete (68/100 Challenges)
+[░░░░░░    ] 69% Complete (69/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -240,8 +240,8 @@ days/
 - [x] **Day 065:** Deploy Redis Deployment on Kubernetes
 - [x] **Day 066:** Deploy MySQL on Kubernetes
 - [x] **Day 067:** Deploy Guest Book App on Kubernetes
-- [ ] **Day 068:** Set Up Jenkins Server
-- [ ] **Day 069:** Install Jenkins Plugins
+- [x] **Day 068:** Set Up Jenkins Server
+- [x] **Day 069:** Install Jenkins Plugins
 - [ ] **Day 070:** Configure Jenkins User Access
 
 ### Week 11: Jenkins CI/CD Pipeline
