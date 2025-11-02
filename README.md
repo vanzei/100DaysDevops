@@ -8,13 +8,13 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 069` <!-- Update this daily with your progress -->
+**Current Day:** `Day 077` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 ```
-[░░░░░░    ] 69% Complete (69/100 Challenges)
+[░░░░░░░   ] 77% Complete (77/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -99,7 +99,7 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 **Skills:** Docker mastery, container orchestration, microservices architecture
 
 ### Module 4: Kubernetes Deep Dive (Days 48-67)
-**Status:**  On going  
+**Status:**  ✅ Completed 
 **Skills:** Cluster management, pod orchestration, service mesh, monitoring
 
 ### Module 5: Automation & Infrastructure (Days 68-100)
@@ -242,17 +242,17 @@ days/
 - [x] **Day 067:** Deploy Guest Book App on Kubernetes
 - [x] **Day 068:** Set Up Jenkins Server
 - [x] **Day 069:** Install Jenkins Plugins
-- [ ] **Day 070:** Configure Jenkins User Access
+- [x] **Day 070:** Configure Jenkins User Access
 
 ### Week 11: Jenkins CI/CD Pipeline
 
-- [ ] **Day 071:** Configure Jenkins Job for Package Installation
-- [ ] **Day 072:** Jenkins Parameterized Builds
-- [ ] **Day 073:** Jenkins Scheduled Jobs
-- [ ] **Day 074:** Jenkins Database Backup Job
-- [ ] **Day 075:** Jenkins Slave Nodes
-- [ ] **Day 076:** Jenkins Project Security
-- [ ] **Day 077:** Jenkins Deploy Pipeline
+- [x] **Day 071:** Configure Jenkins Job for Package Installation
+- [x] **Day 072:** Jenkins Parameterized Builds
+- [x] **Day 073:** Jenkins Scheduled Jobs
+- [x] **Day 074:** Jenkins Database Backup Job
+- [x] **Day 075:** Jenkins Slave Nodes
+- [x] **Day 076:** Jenkins Project Security
+- [x] **Day 077:** Jenkins Deploy Pipeline
 
 ### Week 12: Advanced Jenkins Operations
 
