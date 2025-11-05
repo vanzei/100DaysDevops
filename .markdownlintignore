@@ -1,0 +1,8 @@
+# Ignore specific files
+README.md
+**/solution.md
+**/challenge.md
+
+# Ignore directories
+node_modules/
+.git/

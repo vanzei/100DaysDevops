@@ -13,7 +13,8 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
-```
+
+```text
 [░░░░░░░   ] 77% Complete (77/100 Challenges)
 ```
 
@@ -22,6 +23,7 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 This challenge covers essential DevOps skills and technologies that are crucial in modern software development and operations:
 
 ### 🐧 Linux Fundamentals (Days 1-20)
+
 - User management and permissions
 - SSH configuration and security
 - Shell scripting and automation
@@ -31,6 +33,7 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 - File system operations
 
 ### 🔄 Version Control Systems (Days 21-34)
+
 - Git workflows and best practices
 - Branching strategies and merging
 - Collaboration workflows
@@ -39,6 +42,7 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 - Conflict resolution
 
 ### 🐳 Containerization (Days 35-47)
+
 - Docker fundamentals
 - Container lifecycle management
 - Docker Compose for multi-container apps
@@ -48,6 +52,7 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 - Registry operations
 
 ### ☸️ Container Orchestration (Days 48-67)
+
 - Kubernetes cluster management
 - Pod deployment and scaling
 - Services and networking
@@ -57,6 +62,7 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 - Troubleshooting and debugging
 
 ### 🔧 CI/CD & Infrastructure as Code (Days 68-100)
+
 - Jenkins pipeline creation
 - Terraform infrastructure provisioning
 - Ansible configuration management
@@ -67,42 +73,38 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 
 ## 🛠️ Technologies & Tools
 
-<table>
-  <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/><br/>Linux</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40"/><br/>Docker</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="40" height="40"/><br/>Kubernetes</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40"/><br/>Git</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="40" height="40"/><br/>Terraform</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original.svg" width="40" height="40"/><br/>Ansible</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" width="40" height="40"/><br/>Jenkins</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="40" height="40"/><br/>Nginx</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40"/><br/>MySQL</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="40" height="40"/><br/>Bash</td>
-  </tr>
-</table>
+| Linux | Docker | Kubernetes | Git | Terraform |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Linux Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg) | ![Docker Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg) | ![Kubernetes Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg) | ![Git Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg) | ![Terraform Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg) |
+
+| Ansible | Jenkins | Nginx | MySQL | Bash |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Ansible Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original.svg) | ![Jenkins Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg) | ![Nginx Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg) | ![MySQL Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg) | ![Bash Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg) |
 
 ## 📚 Learning Modules
 
 ### Module 1: Linux Mastery (Days 1-20)
+
 **Status:**  ✅ Completed  
 **Skills:** System administration, user management, networking, security hardening
 
 ### Module 2: Version Control Excellence (Days 21-34)
-**Status:** ✅ Completed 
+
+**Status:** ✅ Completed
 **Skills:** Git workflows, collaboration, automation, code management
 
 ### Module 3: Containerization Journey (Days 35-47)
+
 **Status:** ✅ Completed  
 **Skills:** Docker mastery, container orchestration, microservices architecture
 
 ### Module 4: Kubernetes Deep Dive (Days 48-67)
-**Status:**  ✅ Completed 
+
+**Status:**  ✅ Completed
 **Skills:** Cluster management, pod orchestration, service mesh, monitoring
 
 ### Module 5: Automation & Infrastructure (Days 68-100)
+
 **Status:** ⏳ Upcoming  
 **Skills:** CI/CD pipelines, infrastructure as code, cloud automation
 
@@ -110,22 +112,18 @@ This challenge covers essential DevOps skills and technologies that are crucial 
 
 Each day in this challenge follows a consistent structure:
 
-```
+```tree
 days/
 ├── day-001/
 │   ├── challenge.md    # Daily challenge description and requirements
 │   ├── resources.md    # Useful links, documentation, and references
 │   └── solution/       # My implementation and solution files
-├── day-002/
-│   ├── challenge.md
-│   ├── resources.md
-│   └── solution/
-└── ...
 ```
 
 ## 🚀 Getting Started
 
 1. **Clone this repository:**
+
    ```bash
    git clone https://github.com/yourusername/100DaysDevOps.git
    cd 100DaysDevOps
@@ -140,7 +138,6 @@ days/
    - Fork this repository
    - Update the README with your information
    - Begin your 100-day journey!
-
 
 ## 📝 Daily Logs
 
@@ -293,8 +290,7 @@ days/
 
 ## 🔗 Useful Resources
 
-- [KodeKloud Official Course](https://kodekloud.com/courses/100-days-of-devops/)
-
+- [KodeKloud Official Course](https://kodekloud.com/100-days-of-devops)
 
 ## 🤝 Community & Support
 
@@ -307,4 +303,4 @@ Join the DevOps learning community:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

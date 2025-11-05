@@ -1,0 +1,21 @@
+{
+  "MD001": false,
+  "MD009": {
+    "br_spaces": 2,
+    "list_item_empty_lines": false,
+    "strict": false
+  },
+  "MD022": false,
+  "MD026": {
+    "punctuation": ".,;:!?"
+  },
+  "MD031": false,
+  "MD032": false,
+  "MD040": {
+    "allowed_languages": [],
+    "language_only": false
+  },
+  "MD047": false,
+  "default": true,
+  "line_length": false
+}
