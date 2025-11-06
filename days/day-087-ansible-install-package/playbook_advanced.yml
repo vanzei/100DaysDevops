@@ -1,0 +1,40 @@
+---
+# Alternative Ansible Playbook to install wget package on all app servers
+# This version includes additional error handling and configuration options
+
+- name: Install wget package on all app servers
+  hosts: app_servers
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+  
+  vars:
+    package_name: wget
+  
+  tasks:
+    - name: Update yum cache (optional)
+      yum:
+        update_cache: yes
+      ignore_errors: yes
+      
+    - name: Check if wget is already installed
+      yum:
+        list: "{{ package_name }}"
+      register: wget_check
+      
+    - name: Install wget package using yum
+      yum:
+        name: "{{ package_name }}"
+        state: present
+      register: wget_install_result
+      when: wget_check.results | selectattr('yumstate', 'equalto', 'available') | list | length > 0
+      
+    - name: Verify wget installation
+      command: which wget
+      register: wget_location
+      changed_when: false
+      
+    - name: Display installation status
+      debug:
+        msg: "wget is installed at {{ wget_location.stdout }} on {{ inventory_hostname }}"
+      when: wget_location.rc == 0

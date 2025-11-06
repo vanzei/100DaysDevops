@@ -1,0 +1,27 @@
+---
+# Ansible Playbook for Day 084 Challenge
+# Copy index.html file to all application servers
+# File: /home/thor/ansible/playbook.yml
+
+- name: Copy data file to all application servers
+  hosts: all
+  gather_facts: no
+  become: yes
+  
+  tasks:
+    - name: Ensure destination directory exists
+      file:
+        path: /opt/data
+        state: directory
+        mode: '0755'
+        owner: root
+        group: root
+    
+    - name: Copy index.html file to application servers
+      copy:
+        src: /usr/src/data/index.html
+        dest: /opt/data/index.html
+        mode: '0644'
+        owner: root
+        group: root
+        backup: yes

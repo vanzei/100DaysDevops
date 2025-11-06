@@ -1,0 +1,21 @@
+---
+# Ansible Playbook to install wget package on all app servers
+# Path: /home/thor/playbook/playbook.yml
+
+- name: Install wget package on all app servers
+  hosts: app_servers
+  become: yes
+  become_method: sudo
+  gather_facts: no
+  
+  tasks:
+    - name: Install wget package using yum
+      yum:
+        name: wget
+        state: present
+      register: wget_install_result
+      
+    - name: Display installation result
+      debug:
+        msg: "wget package installation completed on {{ inventory_hostname }}"
+      when: wget_install_result is succeeded

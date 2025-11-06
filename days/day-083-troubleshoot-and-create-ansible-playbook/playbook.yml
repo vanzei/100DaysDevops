@@ -1,0 +1,15 @@
+---
+# Ansible Playbook for Day 083 Challenge
+# Create empty file on App Server 2
+# File: /home/thor/ansible/playbook.yml
+
+- name: Create empty file on App Server 2
+  hosts: all
+  gather_facts: no
+  
+  tasks:
+    - name: Create empty file /tmp/file.txt
+      file:
+        path: /tmp/file.txt
+        state: touch
+        mode: '0644'

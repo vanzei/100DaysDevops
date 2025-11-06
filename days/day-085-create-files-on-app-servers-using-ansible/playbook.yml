@@ -1,0 +1,13 @@
+- name: Create files on app servers
+  hosts: app_servers
+  gather_facts: no
+  become: yes
+  
+  tasks:
+    - name: Create /tmp/nfsshare.txt with server-specific ownership
+      file:
+        path: /tmp/nfsshare.txt
+        state: touch
+        mode: '0777'
+        owner: "{{ file_owner }}"
+        group: "{{ file_owner }}"
