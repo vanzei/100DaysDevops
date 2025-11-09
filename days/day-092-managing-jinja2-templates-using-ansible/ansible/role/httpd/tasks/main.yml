@@ -1,0 +1,29 @@
+---
+# Main tasks for httpd role
+# Path: /home/thor/ansible/role/httpd/tasks/main.yml
+
+- name: Install httpd package
+  yum:
+    name: httpd
+    state: present
+
+- name: Start and enable httpd service
+  systemd:
+    name: httpd
+    state: started
+    enabled: yes
+
+- name: Create index.html from Jinja2 template
+  template:
+    src: index.html.j2
+    dest: /var/www/html/index.html
+    owner: "{{ ansible_user }}"
+    group: "{{ ansible_user }}"
+    mode: '0644'
+    backup: yes
+  notify: restart httpd
+
+- name: Ensure httpd is running
+  systemd:
+    name: httpd
+    state: started

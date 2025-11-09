@@ -1,0 +1,60 @@
+---
+# Day 088: Ansible Blockinfile Module - Install httpd and deploy sample web page
+# Path: /home/thor/ansible/playbook.yml
+
+- name: Install and configure httpd web server with sample content
+  hosts: app_servers
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+  
+  tasks:
+    - name: Install httpd web server
+      yum:
+        name: httpd
+        state: present
+      register: httpd_install
+      
+    - name: Start and enable httpd service
+      systemd:
+        name: httpd
+        state: started
+        enabled: yes
+      register: httpd_service
+      
+    - name: Create /var/www/html directory if it doesn't exist
+      file:
+        path: /var/www/html
+        state: directory
+        owner: apache
+        group: apache
+        mode: '0755'
+        
+    - name: Add content to index.html using blockinfile
+      blockinfile:
+        path: /var/www/html/index.html
+        create: yes
+        block: |
+          Welcome to XfusionCorp!
+          
+          This is  Nautilus sample file, created using Ansible!
+          
+          Please do not modify this file manually!
+      register: blockinfile_result
+      
+    - name: Set ownership of index.html to apache user and group
+      file:
+        path: /var/www/html/index.html
+        owner: apache
+        group: apache
+        mode: '0644'
+        
+    - name: Verify httpd service is running
+      systemd:
+        name: httpd
+      register: httpd_status
+      
+    - name: Display service status
+      debug:
+        msg: "httpd service is {{ httpd_status.status.ActiveState }} on {{ inventory_hostname }}"
+      when: httpd_status is defined

@@ -1,0 +1,8 @@
+---
+# Handlers for httpd role
+# Path: /home/thor/ansible/role/httpd/handlers/main.yml
+
+- name: restart httpd
+  systemd:
+    name: httpd
+    state: restarted

@@ -1,0 +1,71 @@
+---
+# Day 091: Ansible Lineinfile Module
+# Path: /home/thor/ansible/playbook.yml
+
+- name: Install httpd and configure web page using lineinfile module
+  hosts: all
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+  
+  tasks:
+    # Install httpd web server
+    - name: Install httpd web server
+      yum:
+        name: httpd
+        state: present
+      register: httpd_install
+      
+    # Start and enable httpd service
+    - name: Start and enable httpd service
+      systemd:
+        name: httpd
+        state: started
+        enabled: yes
+      register: httpd_service
+      
+    # Create initial index.html file with original content
+    - name: Create index.html with initial content
+      copy:
+        content: "This is a Nautilus sample file, created using Ansible!"
+        dest: /var/www/html/index.html
+        owner: apache
+        group: apache
+        mode: '0744'
+        
+    # Use lineinfile to add new content at the top of the file
+    - name: Add welcome message at the top of index.html using lineinfile
+      lineinfile:
+        path: /var/www/html/index.html
+        line: "Welcome to xFusionCorp Industries!"
+        insertbefore: BOF
+        state: present
+        
+    # Ensure proper ownership and permissions are set
+    - name: Set correct ownership and permissions for index.html
+      file:
+        path: /var/www/html/index.html
+        owner: apache
+        group: apache
+        mode: '0744'
+        
+    # Verify the final content
+    - name: Display final content of index.html
+      command: cat /var/www/html/index.html
+      register: file_content
+      changed_when: false
+      
+    - name: Show index.html content
+      debug:
+        var: file_content.stdout_lines
+        
+    # Verify httpd service status
+    - name: Check httpd service status
+      systemd:
+        name: httpd
+      register: httpd_status
+      
+    - name: Display httpd service status
+      debug:
+        msg: "httpd service is {{ httpd_status.status.ActiveState }} on {{ inventory_hostname }}"
+      when: httpd_status is defined

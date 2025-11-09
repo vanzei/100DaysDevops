@@ -1,0 +1,47 @@
+---
+# Day 093: Using Ansible Conditionals
+# Path: /home/thor/ansible/playbook.yml
+
+- name: Copy files to different servers based on conditionals
+  hosts: all
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+  
+  tasks:
+    - name: Ensure /opt/itadmin directory exists on all servers
+      file:
+        path: /opt/itadmin
+        state: directory
+        mode: '0755'
+    
+    - name: Copy blog.txt to App Server 1 (stapp01)
+      copy:
+        src: /usr/src/itadmin/blog.txt
+        dest: /opt/itadmin/blog.txt
+        owner: tony
+        group: tony
+        mode: '0777'
+      when: ansible_nodename == "stapp01.stratos.xfusioncorp.com"
+    
+    - name: Copy story.txt to App Server 2 (stapp02)
+      copy:
+        src: /usr/src/itadmin/story.txt
+        dest: /opt/itadmin/story.txt
+        owner: steve
+        group: steve
+        mode: '0777'
+      when: ansible_nodename == "stapp02.stratos.xfusioncorp.com"
+    
+    - name: Copy media.txt to App Server 3 (stapp03)
+      copy:
+        src: /usr/src/itadmin/media.txt
+        dest: /opt/itadmin/media.txt
+        owner: banner
+        group: banner
+        mode: '0777'
+      when: ansible_nodename == "stapp03.stratos.xfusioncorp.com"
+    
+    - name: Debug - Show ansible_nodename for verification
+      debug:
+        msg: "Current server nodename: {{ ansible_nodename }}"

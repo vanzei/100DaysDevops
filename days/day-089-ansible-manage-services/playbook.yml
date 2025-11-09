@@ -1,0 +1,25 @@
+---
+- name: Install httpd package on all app servers
+  hosts: all
+  become: yes
+  become_method: sudo
+  gather_facts: no
+  
+  tasks:
+    - name: Install httpd package using yum
+      yum:
+        name: httpd
+        state: present
+      register: httpd_install_result
+      
+    - name: Start and enable httpd service
+      systemd:
+        name: httpd
+        state: started
+        enabled: yes
+      register: httpd_service_result
+      
+    - name: Display installation and service status
+      debug:
+        msg: "httpd package installed and service started/enabled on {{ inventory_hostname }}"
+      when: httpd_install_result is succeeded and httpd_service_result is succeeded

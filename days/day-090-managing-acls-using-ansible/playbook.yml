@@ -1,0 +1,93 @@
+---
+# Day 090: Managing ACLs Using Ansible
+# Path: /home/thor/ansible/playbook.yml
+
+- name: Create files and manage ACLs on app servers
+  hosts: all
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+  
+  tasks:
+    # Ensure ACL utilities are installed
+    - name: Install ACL utilities
+      yum:
+        name: acl
+        state: present
+      
+    # Create /opt/security directory on all servers
+    - name: Create /opt/security directory
+      file:
+        path: /opt/security
+        state: directory
+        owner: root
+        group: root
+        mode: '0755'
+
+    # App Server 1 (stapp01) - blog.txt with group tony read permissions
+    - name: Create blog.txt on app server 1
+      file:
+        path: /opt/security/blog.txt
+        state: touch
+        owner: root
+        group: root
+        mode: '0644'
+      when: inventory_hostname == 'stapp01'
+      
+    - name: Set ACL for group tony on blog.txt (app server 1)
+      acl:
+        path: /opt/security/blog.txt
+        entity: tony
+        etype: group
+        permissions: r
+        state: present
+      when: inventory_hostname == 'stapp01'
+
+    # App Server 2 (stapp02) - story.txt with user steve read/write permissions
+    - name: Create story.txt on app server 2
+      file:
+        path: /opt/security/story.txt
+        state: touch
+        owner: root
+        group: root
+        mode: '0644'
+      when: inventory_hostname == 'stapp02'
+      
+    - name: Set ACL for user steve on story.txt (app server 2)
+      acl:
+        path: /opt/security/story.txt
+        entity: steve
+        etype: user
+        permissions: rw
+        state: present
+      when: inventory_hostname == 'stapp02'
+
+    # App Server 3 (stapp03) - media.txt with group banner read/write permissions
+    - name: Create media.txt on app server 3
+      file:
+        path: /opt/security/media.txt
+        state: touch
+        owner: root
+        group: root
+        mode: '0644'
+      when: inventory_hostname == 'stapp03'
+      
+    - name: Set ACL for group banner on media.txt (app server 3)
+      acl:
+        path: /opt/security/media.txt
+        entity: banner
+        etype: group
+        permissions: rw
+        state: present
+      when: inventory_hostname == 'stapp03'
+      
+    # Verification tasks
+    - name: Display ACL information for created files
+      shell: "getfacl /opt/security/*.txt 2>/dev/null || echo 'No files found'"
+      register: acl_info
+      changed_when: false
+      
+    - name: Show ACL configuration
+      debug:
+        var: acl_info.stdout_lines
+      when: acl_info.stdout_lines is defined

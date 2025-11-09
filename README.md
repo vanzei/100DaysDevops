@@ -8,14 +8,14 @@ Welcome to my personal journey through the **100 Days of DevOps Challenge** by K
 
 ## 📅 Current Progress
 
-**Current Day:** `Day 077` <!-- Update this daily with your progress -->
+**Current Day:** `Day 097` <!-- Update this daily with your progress -->
 **Start Date:** `October 2, 2025`
 **Challenge Status:** `🚀 Starting Journey`
 
 ### Progress Tracker
 
 ```text
-[░░░░░░░   ] 77% Complete (77/100 Challenges)
+[░░░░░░░░░ ] 97% Complete (97/100 Challenges)
 ```
 
 ## 🎯 What I'm Learning
@@ -253,32 +253,32 @@ days/
 
 ### Week 12: Advanced Jenkins Operations
 
-- [ ] **Day 078:** Jenkins Conditional Pipeline
-- [ ] **Day 079:** Jenkins Deployment Job
-- [ ] **Day 080:** Jenkins Chained Builds
-- [ ] **Day 081:** Jenkins Multistage Pipeline
-- [ ] **Day 082:** Create Ansible Inventory for App Server Testing
-- [ ] **Day 083:** Troubleshoot and Create Ansible Playbook
-- [ ] **Day 084:** Copy Data to App Servers using Ansible
+- [x] **Day 078:** Jenkins Conditional Pipeline
+- [x] **Day 079:** Jenkins Deployment Job
+- [x] **Day 080:** Jenkins Chained Builds
+- [x] **Day 081:** Jenkins Multistage Pipeline
+- [x] **Day 082:** Create Ansible Inventory for App Server Testing
+- [x] **Day 083:** Troubleshoot and Create Ansible Playbook
+- [x] **Day 084:** Copy Data to App Servers using Ansible
 
 ### Week 13: Ansible Configuration Management
 
-- [ ] **Day 085:** Create Files on App Servers using Ansible
-- [ ] **Day 086:** Ansible Ping Module Usage
-- [ ] **Day 087:** Ansible Install Package
-- [ ] **Day 088:** Ansible Blockinfile Module
-- [ ] **Day 089:** Ansible Manage Services
-- [ ] **Day 090:** Managing ACLs Using Ansible
-- [ ] **Day 091:** Ansible Lineinfile Module
+- [x] **Day 085:** Create Files on App Servers using Ansible
+- [x] **Day 086:** Ansible Ping Module Usage
+- [x] **Day 087:** Ansible Install Package
+- [x] **Day 088:** Ansible Blockinfile Module
+- [x] **Day 089:** Ansible Manage Services
+- [x] **Day 090:** Managing ACLs Using Ansible
+- [x] **Day 091:** Ansible Lineinfile Module
 
 ### Week 14: Advanced Ansible & Terraform Introduction
 
-- [ ] **Day 092:** Managing Jinja2 Templates Using Ansible
-- [ ] **Day 093:** Using Ansible Conditionals
-- [ ] **Day 094:** Create VPC Using Terraform
-- [ ] **Day 095:** Create Security Group Using Terraform
-- [ ] **Day 096:** Create EC2 Instance Using Terraform
-- [ ] **Day 097:** Create IAM Policy Using Terraform
+- [x] **Day 092:** Managing Jinja2 Templates Using Ansible
+- [x] **Day 093:** Using Ansible Conditionals
+- [x] **Day 094:** Create VPC Using Terraform
+- [x] **Day 095:** Create Security Group Using Terraform
+- [x] **Day 096:** Create EC2 Instance Using Terraform
+- [x] **Day 097:** Create IAM Policy Using Terraform
 - [ ] **Day 098:** Launch EC2 in Private VPC Subnet Using Terraform
 
 ### Week 15: Terraform & AWS Cloud Automation
@@ -304,3 +304,5 @@ Join the DevOps learning community:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+

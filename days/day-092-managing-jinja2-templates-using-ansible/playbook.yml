@@ -1,0 +1,12 @@
+---
+# Day 092: Managing Jinja2 Templates using Ansible
+# Path: ~/ansible/playbook.yml
+
+- name: Deploy httpd role on App Server 1
+  hosts: stapp01
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+  
+  roles:
+    - role/httpd
